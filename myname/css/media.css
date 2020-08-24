@@ -1,0 +1,107 @@
+/* --- Планшеты --- */
+@media screen and (max-width: 960px){
+	.container{
+		width: 90%;
+	}
+	nav{
+		display: none;
+	}
+
+	.background{
+    width: 100%;
+	}
+	
+	.deserts-and-connection {
+    float: left;
+    width: 100%;
+    margin-left: 0px;
+	}
+
+	.deserts__item:nth-child(1) {
+    margin-left: 10%;
+	}
+
+	.deserts__item{
+		margin-left: 0px;
+	}
+
+	.deserts__item:nth-child(2){
+		margin-left: 18%;
+	}
+
+	.deserts__item:nth-child(3) {
+    float: right;
+    margin-right: 10%;
+	}
+
+	.connection__item_icon{
+		float: right;
+		margin-right: 10%;
+	}	
+
+	.skills__item{
+		width: auto;
+		margin-left: 5%;
+		padding-left: 65px;
+	}
+
+	.works__item:nth-child(3){
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+}
+/* --- Мобильные --- */
+@media screen and (max-width: 728px){
+	.container{
+		width: 90%;
+	}
+	
+	.first__arrow {
+    margin: 200px auto 0px;
+	}
+
+	.deserts__item {
+    width: 100%;
+    margin: 0px auto;
+	}
+
+	.deserts__item_number {    
+    margin: 0px auto;
+	}
+
+	.deserts__item_desc {
+    margin: 25px auto;
+	}
+
+	.deserts__item:nth-child(1) {
+    margin-left: 0;
+	}
+
+	.deserts__item:nth-child(2) {
+    margin-left: 0;
+	}
+
+	.deserts__item:nth-child(3) {
+    margin-right: 0;
+	}
+
+	.skills__item {
+    margin-left: 5%;
+    padding-left: 88px;
+    width: 100%;
+    margin-top: 20px;
+	}
+
+	.skills__item:nth-child(1) {
+    margin-top: 0;
+    margin-left: 5%;
+	}
+
+	.works__item{
+		margin-left: 0;
+	}
+
+	.works__item:nth-child(2){
+		margin-top: 20px;
+	}
+}
